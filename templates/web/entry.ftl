@@ -9,5 +9,6 @@ ${model.body_html}
 </#list>
 
 <#else>
+ <base href="/static-assets/markup">
  <#include "/static-assets/markup/index.html" />
 </#if>
