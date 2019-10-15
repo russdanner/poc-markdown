@@ -3,5 +3,5 @@
 ${model.body_html}
 
 <#list contentModel.components_o.item as module>
-	ssss
+	<@renderComponent component=module />
 </#list>
