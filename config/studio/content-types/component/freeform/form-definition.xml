@@ -90,7 +90,7 @@
 					<type>textarea</type>
 					<id>markdown_t</id>
 					<iceId></iceId>
-					<title>markdown</title>
+					<title>Markdown</title>
 					<description></description>
 					<defaultValue></defaultValue>
 					<help></help>
