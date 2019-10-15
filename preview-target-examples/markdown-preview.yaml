@@ -26,7 +26,7 @@ target:
         url: ${target.engineUrl}/api/1/site/context/graphql/rebuild.json?crafterSite=${target.siteName}
       - processorName: commandLineProcessor
         workingDir: '/Users/rdanner/mytemp'
-        command: 'curl http://localhost:8080?crafterSite=markdown -o /Users/rdanner/mytemp/index.rst'
+        command: 'curl http://localhost:8080?crafterSite=markdown&markdown=true -o /Users/rdanner/mytemp/index.rst'
       - processorName: commandLineProcessor
         workingDir: '/Users/rdanner/mytemp'
         command: 'sphinx-build -a /Users/rdanner/mytemp /Users/rdanner/crafter-installs/training/craftercms/crafter-authoring/data/repos/sites/markdown/sandbox/static-assets/markup'
