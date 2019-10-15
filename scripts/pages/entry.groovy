@@ -1,1 +1,1 @@
-response.setContentType("text/plain")
+if(params.markdown) response.setContentType("text/plain")
