@@ -1,7 +1,7 @@
-    +----------------+-------------------+\r\n
-    |  Title         | Description       |\r\n
-    +----------------+-------------------+\r\n
+    +----------------+-------------------+ 
+    |  Title         | Description       | 
+    +----------------+-------------------+
 <#list contentModel.featureMatrix_o.item as row>
-	| ${row.title_s} | ${row.description_t} |\r\n
+	| ${row.title_s} | ${row.description_t} |
 </#list>
     +----------------+-------------------+
