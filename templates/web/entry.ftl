@@ -4,5 +4,5 @@ ${model.body_html}
 
 <#list contentModel.components_o.item as module>
 	${module.component["internal-name"]}
-	<@renderComponent component=module.component />
+	<@renderComponent parent=contentModel component=module />
 </#list>
