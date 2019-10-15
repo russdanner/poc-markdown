@@ -14,8 +14,31 @@
 	<folder-name/>
 	<createdDate>2017-1-31T16:18:14.000Z</createdDate>
 	<createdDate_dt>2017-1-31T16:18:14.000Z</createdDate_dt>
-	<lastModifiedDate>2019-10-15T19:14:38.570Z</lastModifiedDate>
-	<lastModifiedDate_dt>2019-10-15T19:14:38.570Z</lastModifiedDate_dt>
+	<lastModifiedDate>2019-10-15T19:24:18.344Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-15T19:24:18.344Z</lastModifiedDate_dt>
 	<title_t>Hello!</title_t>
 	<disabled>false</disabled>
+	<components_o item-list="true">	<item datasource="widgets" inline="true">	<key>f9b60192-0d8b-af51-6b8a-09ac56a7d220</key>
+	<value>My Figure 1</value>
+<component id="f9b60192-0d8b-af51-6b8a-09ac56a7d220">
+	<content-type>/component/table</content-type>
+	<display-template>/templates/web/Table.ftl</display-template>
+	<no-template-required/>
+	<merge-strategy>inherit-levels</merge-strategy>
+	<objectGroupId>f9b6</objectGroupId>
+	<objectId>f9b60192-0d8b-af51-6b8a-09ac56a7d220</objectId>
+	<file-name>my-figure.xml</file-name>
+	<folder-name/>
+	<internal-name>My Figure 1</internal-name>
+	<featureMatrix_o item-list="true">	<item>	<title_s>Feature 1</title_s>
+	<description_t>This is an awesome feature</description_t>
+	</item>	<item>	<title_s>Feature 2</title_s>
+	<description_t>This is an awesome feature !!!!</description_t>
+	</item></featureMatrix_o>
+	<createdDate>2019-10-15T19:24:25.364Z</createdDate>
+	<createdDate_dt>2019-10-15T19:24:25.364Z</createdDate_dt>
+	<lastModifiedDate>2019-10-15T19:24:25.364Z</lastModifiedDate>
+	<lastModifiedDate_dt>2019-10-15T19:24:25.364Z</lastModifiedDate_dt>
+</component>
+	</item></components_o>
 </page>
