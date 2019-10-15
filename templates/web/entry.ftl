@@ -3,5 +3,5 @@
 ${model.body_html}
 
 <#list contentModel.components_o.item as module>
-	${module["internal-name"]}
+	${module.component["internal-name"]}
 </#list>
