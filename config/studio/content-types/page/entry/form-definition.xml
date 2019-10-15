@@ -208,12 +208,12 @@
 						</property>
 						<property>
 							<name>forceRootBlockPTag</name>
-							<value>true</value>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
 							<name>forcePTags</name>
-							<value>true</value>
+							<value>false</value>
 							<type>boolean</type>
 						</property>
 						<property>
@@ -240,6 +240,21 @@
 							<name>videoManager</name>
 							<value></value>
 							<type>datasource:video</type>
+						</property>
+						<property>
+							<name>width</name>
+							<value></value>
+							<type>int</type>
+						</property>
+						<property>
+							<name>autoGrow</name>
+							<value>false</value>
+							<type>boolean</type>
+						</property>
+						<property>
+							<name>fileManager</name>
+							<value></value>
+							<type>datasource:item</type>
 						</property>
 					</properties>
 					<constraints>
