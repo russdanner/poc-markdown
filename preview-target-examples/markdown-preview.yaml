@@ -1,0 +1,31 @@
+target:
+  env: preview
+  siteName: markdown
+  localRepoPath: /Users/rdanner/crafter-installs/training/craftercms/crafter-authoring/data/repos/sites/markdown/sandbox
+  crafterSearchEnabled: false
+  search:
+    indexIdFormat: '%s-preview'
+  deployment:
+    scheduling:
+       enabled: false
+    pipeline:
+      - processorName: gitDiffProcessor
+      - processorName: elasticsearchIndexingProcessor
+      - processorName: httpMethodCallProcessor
+        includeFiles: ["^/?config/.*$", "^/?scripts/.*$"]
+        excludeFiles: ["^/?config/studio/content-types.*$"]
+        method: GET
+        url: ${target.engineUrl}/api/1/site/context/rebuild.json?crafterSite=${target.siteName}
+        jumpTo: fileOutputProcessor
+      - processorName: httpMethodCallProcessor
+        method: GET
+        url: ${target.engineUrl}/api/1/site/cache/clear.json?crafterSite=${target.siteName}
+      - processorName: httpMethodCallProcessor
+        includeFiles: ["^/?config/studio/content-types.*$"]
+        method: GET
+        url: ${target.engineUrl}/api/1/site/context/graphql/rebuild.json?crafterSite=${target.siteName}
+      - processorName: commandLineProcessor
+        workingDir: '/Users/rdanner/mytemp'
+        command: 'curl http://localhost:8080?crafterSite=markdown -o /Users/rdanner/mytemp/index.rst'
+      - processorName: fileOutputProcessor
+        processorLabel: fileOutputProcessor
