@@ -1,4 +1,4 @@
-<#if RequestParameters["markdown"] >
+<#if RequestParameters["markdown"]?? >
 ${model.title_t}
 ~~~~~~~~~~~~~
 
