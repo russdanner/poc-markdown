@@ -3,5 +3,5 @@ if(params.markdown) {
 }
 else { 
     //request.getRequestDispatcher("/static-assets/markup/index.html").forward(request, response);
-    response.redirect("/static-assets/markup/index.html");
+    response.sendRedirect("/static-assets/markup/index.html");
 }
