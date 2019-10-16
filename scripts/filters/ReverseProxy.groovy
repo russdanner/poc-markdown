@@ -17,7 +17,7 @@ import org.apache.http.message.BasicHeader
 import org.apache.http.message.BasicHttpEntityEnclosingRequest
 import org.apache.http.message.BasicHttpRequest
 import org.apache.http.message.HeaderGroup
-import org.apache.http.params.BasicHttpParams
+import org.apache.http.params.BasicHttpParams 
 import org.apache.http.params.HttpParams
 import org.apache.http.util.EntityUtils
 
