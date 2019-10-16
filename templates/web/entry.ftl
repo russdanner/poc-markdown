@@ -8,5 +8,5 @@ ${model.body_html}
 	<@renderComponent parent=contentModel component=module />
 </#list>
 
-.. html ::
+.. raw:: html
 <@studio.toolSupport />  
