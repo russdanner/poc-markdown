@@ -5,3 +5,14 @@ ${""?right_pad(25, "=")}   ${""?right_pad(25, "=")}
 ${row.title_s}|${row.description_t}|
 </#list>
 ${""?right_pad(25, "=")}   ${""?right_pad(25, "=")} 
+
+.. table::
+
+    =============   ==================================================
+    OC              |Organizing Collection Section|
+    Coll            |Collection Section|
+    Resource        |Resource Section|
+    Unnamed Resrc   |Unnamed Resource Section|
+    SC              |Subcollection Section|
+    SubColl Resrc   |Subcollection Resource Section|
+    =============   ==================================================
