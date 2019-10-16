@@ -60,13 +60,13 @@ try {
   proxyRequestUri = proxyRequestUri.replace("//","/")
   proxyRequestUri = proxyRequestUri.replace("/_static/","/static-assets/markup/_static/")
   
-  if(proxyRequestUri.contains("?")) {
-	  proxyRequestUri = proxyRequestUri.replace("?",".json?")
-      proxyRequestUri = proxyRequestUri += "&crafterSite="+siteContext.siteName
-  }
-  else {
-	  proxyRequestUri = proxyRequestUri += ".json?crafterSite="+siteContext.siteName
-  }
+//  if(proxyRequestUri.contains("?")) {
+//	  proxyRequestUri = proxyRequestUri.replace("?",".json?")
+//      proxyRequestUri = proxyRequestUri += "&crafterSite="+siteContext.siteName
+//  }
+//  else {
+//	  proxyRequestUri = proxyRequestUri += ".json?crafterSite="+siteContext.siteName
+//  }
 
 logger.info("REVERSE PROXING TO : ${originalRequest} --> ${proxyRequestUri}")
 
