@@ -1,5 +1,8 @@
   .. html ::
-    <div >
+    <div data-studio-component-path="${contentModel.storeUrl}" 
+            data-studio-ice-path="${contentModel.storeUrl}"
+            data-studio-component="component/table"
+            data-studio-ice="">
     
 .. table::
 
@@ -8,3 +11,5 @@
     ${row.title_s}       ${row.description_t}
 </#list>
     =============   ==================================================
+  .. html ::
+  </div>
