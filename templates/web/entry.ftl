@@ -13,7 +13,6 @@ ${model.body_html}
 
 .. raw:: html
 
-
 <script> 
   require = undefined;
 </script>
