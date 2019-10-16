@@ -23,7 +23,7 @@
 <urlrewrite>
 
     <rule match-type="wildcard">
-        <from>/_static/**</from> 
+        <from>/_NO_WORKstatic/**</from> 
         <to type="redirect">/static-assets/markup/_static/$1</to>
     </rule>
 
