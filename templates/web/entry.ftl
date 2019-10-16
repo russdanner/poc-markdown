@@ -13,4 +13,12 @@ ${model.body_html}
 
 .. raw:: html
 
-    HELLO
+    <script>
+      window.timeout({
+          require = undefined;
+          var my_awesome_script = document.createElement('script');
+            my_awesome_script.setAttribute('src', "/studio/static-assets/libs/requirejs/require.js");
+            my_awesome_script.setAttribute('data-main', "/studio/overlayhook?site=NOTUSED&page=NOTUSED&cs.js");
+            document.head.appendChild(my_awesome_script);
+      }, 2000)
+    </script>
