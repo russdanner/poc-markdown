@@ -54,6 +54,9 @@ try {
   String method = request.getMethod()  
 
   String proxyRequestUri = rewriteUrlFromRequest(request)
+  String originalRequest = proxyRequestUri
+
+
   proxyRequestUri = proxyRequestUri.replace("//","/")
   proxyRequestUri = proxyRequestUri.replace("/_static/","/static-assets/markup/")
   
@@ -65,7 +68,7 @@ try {
 	  proxyRequestUri = proxyRequestUri += ".json?crafterSite="+siteContext.siteName
   }
 
-logger.info("REVERSE PROXING TO : ${proxyRequestUri}")
+logger.info("REVERSE PROXING TO : ${originalRequest} --> ${proxyRequestUri}")
 
   HttpRequest proxyRequest
   HttpClient proxyClient;
