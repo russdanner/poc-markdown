@@ -1,4 +1,5 @@
 .. raw:: html
+
     <div data-studio-component-path="${contentModel.storeUrl}" 
             data-studio-ice-path="${contentModel.storeUrl}"
             data-studio-component="component/table"
@@ -13,4 +14,5 @@
     =============   ==================================================
 
 .. raw:: html
+
   </div>
