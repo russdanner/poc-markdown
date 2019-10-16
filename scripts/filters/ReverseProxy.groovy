@@ -58,7 +58,7 @@ try {
 
 
   proxyRequestUri = proxyRequestUri.replace("//","/")
-  proxyRequestUri = proxyRequestUri.replace("/_static/","/static-assets/markup/")
+  proxyRequestUri = proxyRequestUri.replace("/_static/","/static-assets/markup/_static/")
   
   if(proxyRequestUri.contains("?")) {
 	  proxyRequestUri = proxyRequestUri.replace("?",".json?")
