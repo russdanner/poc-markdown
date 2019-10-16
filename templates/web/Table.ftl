@@ -1,3 +1,4 @@
+<#import "/templates/system/common/cstudio-support.ftl" as studio />
 .. raw:: html
 
     <div <@studio.componentAttr path=contentModel.storeUrl ice=true />>
