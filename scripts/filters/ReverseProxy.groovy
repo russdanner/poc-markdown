@@ -68,7 +68,7 @@ try {
 //	  proxyRequestUri = proxyRequestUri += ".json?crafterSite="+siteContext.siteName
 //  }
 
-logger.info("REVERSE PROXING TO : ${originalRequest} --> ${proxyRequestUri}")
+logger.info("REVERSE PROXING TO :>>  ${originalRequest} --> ${proxyRequestUri}")
 
   HttpRequest proxyRequest
   HttpClient proxyClient;
