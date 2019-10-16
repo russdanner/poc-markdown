@@ -1,7 +1,7 @@
 <urlrewrite>
 
     <rule>
-        <from>^_static/(.*)$</from>
+        <from>^/_static/(.*)$</from>
         <to type="redirect">/static-assets/markup/_static/$1</to>
     </rule>
 
