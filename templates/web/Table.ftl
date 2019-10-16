@@ -1,9 +1,6 @@
 .. raw:: html
 
-    <div data-studio-component-path="${contentModel.storeUrl}" 
-            data-studio-ice-path="${contentModel.storeUrl}"
-            data-studio-component="component/table"
-            data-studio-ice="">
+    <div <@studio.componentAttr path=contentModel.storeUrl ice=true />>
     
 .. table::
 
