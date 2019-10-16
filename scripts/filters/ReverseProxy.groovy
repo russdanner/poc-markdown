@@ -58,7 +58,7 @@ try {
 
 
   proxyRequestUri = proxyRequestUri.replace("//","/")
-  proxyRequestUri = proxyRequestUri.replace("/_static/","/static-assets/markup/_static/")
+  proxyRequestUri = proxyRequestUri.replace("/XXXXXX_static/","XXXXX/static-assets/markup/_static/")
   proxyRequestUri = "http://localhost:8080"+proxyRequestUri+"?crafterSite=markdown"
   
 //  if(proxyRequestUri.contains("?")) {
