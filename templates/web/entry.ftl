@@ -1,4 +1,7 @@
 <#import "/templates/system/common/cstudio-support.ftl" as studio />
+.. raw:: html
+
+    <div    data-studio-ice="body">TEXT</div> 
 ${model.title_t}
 ~~~~~~~~~~~~~
 
