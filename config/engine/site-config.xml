@@ -23,7 +23,7 @@
 <site> 
     <filters>
         <filter>
-            <script>/scripts/filters/ReverseProxy.groovy</script>
+            <script>/scripts/filter/ReverseProxy.groovy</script>
             <mapping>
                 <include>/**</include>
             </mapping>
