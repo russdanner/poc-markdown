@@ -1,0 +1,8 @@
+<urlrewrite>
+
+    <rule>
+        <from>^_/static/(.*)$</from>
+        <to type="redirect">/static-assets/markup/$1</to>
+    </rule>
+
+</urlrewrite>
