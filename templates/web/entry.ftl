@@ -11,3 +11,8 @@ ${model.body_html}
 	<@renderComponent parent=contentModel component=module />
 </#list>
 
+<script> 
+  require = undefined;
+</script>
+
+<@studio.toolSupport />
