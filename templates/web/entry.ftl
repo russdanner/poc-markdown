@@ -11,3 +11,4 @@ ${model.body_html}
 	<@renderComponent parent=contentModel component=module />
 </#list>
 
+<@studio.toolSupport />
